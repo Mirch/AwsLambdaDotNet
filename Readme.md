@@ -1,5 +1,7 @@
 # AWS Lambda with .NET Core 3.1 runtime
 
+Find the article that explains how to build and deploy this project [here](https://mirceaoprea.net/blog/deploying-net-applications-to-aws-lambda/).
+
 This starter project consists of:
 * Function.cs - contains a class with a Main method that starts the bootstrap, and a single function handler method
 * aws-lambda-tools-defaults.json - default argument settings for use with Visual Studio and command line deployment tools for AWS
