@@ -1,0 +1,24 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "default",
+    "region"      : "eu-central-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "function-runtime" : "provided",
+    "function-memory-size" : 256,
+    "function-timeout"     : 30,
+    "function-handler"     : "not_required_for_custom_runtime",
+    "msbuild-parameters"   : "--self-contained true",
+    "function-name"        : "GetString",
+    "function-role"        : "arn:aws:iam::358599436160:role/LambdaEC2Role",
+    "function-subnets"     : "subnet-09047df653817f770,subnet-0bbdbc53a59a5f584,subnet-0a821843fbeb1b70a",
+    "function-security-groups" : "sg-0a43d39bf32678987",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : ""
+}
